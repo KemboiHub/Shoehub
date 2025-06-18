@@ -1,12 +1,7 @@
-// tailwind.config.js
-module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // for React or other frameworks
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+})
