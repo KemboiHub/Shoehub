@@ -1,11 +1,11 @@
-import Hero from './Hero.jsx';
-import PopularProducts from './PopularProducts.jsx';
-import SuperQuality from './SuperQuality.jsx';
-import Services from './Services.jsx';
-import SpecialOffer from './SpecialOffer.jsx';
-import CustomerReviews from './CustomerReviews.jsx';
-import Subscribe from './Subscribe.jsx';
-import Footer from './Footer.jsx';
+import Hero from "./Hero";
+import PopularProducts from "./PopularProducts";
+import SuperQuality from "./SuperQuality";
+import Services from "./Services";
+import SpecialOffer from "./SpecialOffer";
+import CustomerReviews from "./CustomerReviews";
+import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 
 export {
     Hero,
